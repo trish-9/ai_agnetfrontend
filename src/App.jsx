@@ -13,7 +13,7 @@ const HealthAIApp = () => {
   const [loginForm, setLoginForm] = useState({ email: '', password: '' });
   const [signupForm, setSignupForm] = useState({ email: '', password: '', confirmPassword: '' });
 
-  const API_URL = 'http://localhost:5000/api';
+  const API_URL = 'https://ai-agentback.onrender.com';
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
