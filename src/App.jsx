@@ -13,7 +13,7 @@ const HealthAIApp = () => {
   const [loginForm, setLoginForm] = useState({ email: '', password: '' });
   const [signupForm, setSignupForm] = useState({ email: '', password: '', confirmPassword: '' });
 
-  const API_URL = 'https://aiagentback--trishamgupta43.replit.app/api';
+  const API_URL = 'https://34s2psw4-5000.inc1.devtunnels.ms/api';
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
